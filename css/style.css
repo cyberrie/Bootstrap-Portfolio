@@ -1,0 +1,99 @@
+:root {
+  --primary-color1: rgb(236, 213, 207);
+  --primary-color2: rgb(209, 143, 150);
+  --pc1-rgba: rgba(236, 213, 207, 0.39);
+  --font-color: rgb(72, 38, 48);
+  --secondary-color: #e5e5e5;
+  --sec-rgba: #e5e5e5f1;
+  --border-radius-50: 50%;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: var(--primary-color2);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+p {
+  margin: 0;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+body,
+.jumbotron {
+  background: linear-gradient(
+    90deg,
+    var(--primary-color1),
+    var(--primary-color2)
+  );
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.5;
+  color: var(--font-color);
+}
+
+/* jumbotron */
+
+/* main */
+.portfolio,
+.skills,
+.contact {
+  display: flex;
+}
+
+/* portfolio grid */
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 200px);
+  gap: 12px;
+  grid-template-areas:
+    "rotating-planets rotating-planets"
+    "rotating-planets rotating-planets"
+    "skyline nutrition-label"
+    "quiz piano ";
+}
+
+.rotating-planets {
+  grid-area: rotating-planets;
+}
+
+.skyline {
+  grid-area: skyline;
+}
+
+.nutrition-label {
+  grid-area: nutrition-label;
+}
+
+.quiz {
+  grid-area: quiz;
+}
+
+.piano {
+  grid-area: piano;
+}
