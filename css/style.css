@@ -22,11 +22,12 @@ html {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 6rem;
+  font-weight: 700;
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 h3 {
@@ -160,7 +161,8 @@ body,
 
 .col-lg-9,
 .col-md-8,
-.col-sm-9 {
+.col-sm-9,
+.col-sm-8 {
   padding: 0 !important;
 }
 .portfolio-grid {
@@ -211,7 +213,7 @@ body,
 .card-body {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .card {
@@ -245,4 +247,49 @@ body,
   justify-content: center;
   align-items: center;
   gap: 16px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 665px) {
+  .container {
+    gap: 32px;
+  }
+
+  h1 {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h6 {
+    font-size: 2rem;
+  }
+
+  h5 {
+    font-size: 1.8rem;
+  }
+
+  .hero-image {
+    height: 300px;
+    width: 290px;
+  }
+
+  #about,
+  #portfolio,
+  #contact {
+    flex-basis: 120px;
+    font-size: 2.5rem;
+  }
+
+  p,
+  li {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 485px) {
 }
