@@ -55,15 +55,19 @@ body,
   color: var(--font-color);
 }
 
-/* jumbotron */
+/* JUMBOTRON */
 
-/* main */
+/* MAIN */
+
 .portfolio,
 .skills,
 .contact {
   display: flex;
 }
 
+#content {
+  margin-bottom: 48px;
+}
 /* portfolio grid */
 
 .portfolio-grid {
@@ -72,22 +76,22 @@ body,
   grid-template-rows: repeat(4, 200px);
   gap: 12px;
   grid-template-areas:
-    "rotating-planets rotating-planets"
-    "rotating-planets rotating-planets"
-    "skyline nutrition-label"
+    "rp rp"
+    "rp rp"
+    "sky nl"
     "quiz piano ";
 }
 
-.rotating-planets {
-  grid-area: rotating-planets;
+#rp {
+  grid-area: rp;
 }
 
-.skyline {
-  grid-area: skyline;
+.sky {
+  grid-area: sky;
 }
 
-.nutrition-label {
-  grid-area: nutrition-label;
+.nl {
+  grid-area: nl;
 }
 
 .quiz {
@@ -96,4 +100,17 @@ body,
 
 .piano {
   grid-area: piano;
+}
+
+.card-text {
+  font-size: 1.2rem;
+}
+
+.card-img-rp {
+  width: 100%;
+  height: 350px;
+}
+.card-img-top {
+  width: 100%;
+  height: 150px;
 }
