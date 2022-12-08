@@ -40,7 +40,10 @@ h4 {
 }
 
 h5 {
-  font-size: 2rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  text-align: center;
 }
 
 h6 {
@@ -90,6 +93,15 @@ body,
 
 /* navbar */
 
+.navbar {
+  padding: 2.5px 0 !important;
+  background: linear-gradient(
+    180deg,
+    var(--primary-color2),
+    var(--primary-color1)
+  );
+}
+
 #navbarNav {
   justify-content: center;
 }
@@ -104,7 +116,7 @@ body,
 
 .navbar-nav {
   display: flex;
-  gap: 32px;
+  gap: 64px;
 }
 
 .nav-link {
@@ -137,7 +149,16 @@ body,
   font-size: 3rem;
   font-weight: 400;
 }
+
 /* MAIN */
+
+main {
+  margin-left: 32px;
+}
+#content {
+  border-left: 5px solid var(--primary-color2);
+  border-radius: 5px;
+}
 
 .portfolio,
 .skills,
@@ -155,12 +176,32 @@ body,
   margin-bottom: 48px;
 }
 
+/* skills */
+
 .skills-ul li {
   margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.skills-ul li:last-child {
+  margin-bottom: 0;
 }
 
 /* portfolio grid */
 
+.card,
+.card-img-top {
+  border-radius: var(--border-radius-10) var(--border-radius-10) 0 0;
+}
+
+.card-body {
+  background: linear-gradient(90deg, var(--pc1-rgba), var(--sec-rgba), silver);
+}
+
+.card-text {
+  font-size: 1.2rem;
+  text-align: center;
+}
 .portfolio-grid {
   row-gap: 20px;
 }
@@ -202,6 +243,19 @@ body,
 i {
   font-size: 3rem;
   cursor: pointer;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  padding: 2.5px 0;
+  background: linear-gradient(
+    180deg,
+    var(--primary-color1),
+    var(--primary-color2)
+  );
+  height: 58px;
 }
 
 /* media queries */
@@ -253,11 +307,16 @@ i {
   }
 
   h2,
-  .connect-btn,
+  .connect-btn {
+    font-size: 2rem;
+  }
+
   #about,
   #portfolio,
   #contact {
-    font-size: 2rem;
+    flex-basis: 110px;
+    font-size: 1.6rem;
+    font-weight: 700;
   }
 
   h6 {
