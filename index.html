@@ -16,14 +16,17 @@
       href="https://fonts.googleapis.com/css?family=Anton%7CJura&display=swap"
       rel="stylesheet"
     />
+
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/c4b9748cd2.js" crossorigin="anonymous"></script>
+
     <!-- style.css -->
     <link rel="stylesheet" href="css/style.css" />
     <title>Helena - Web Developer</title>
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
       <button
         class="navbar-toggler"
         type="button"
@@ -37,26 +40,21 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
+              >about <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">contact</a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-              >Disabled</a
-            >
+            <a class="nav-link" href="#">buy me a donut</a>
           </li>
+          
         </ul>
       </div>
     </nav>
@@ -92,17 +90,17 @@
     <main>
       <section class="skills">
         <div class="col-lg-2">
-          <h3>about</h3>
+          <h3 id="about">about</h3>
           <h3>skills</h3>
         </div>
-        <div class="col-lg-10" id="content">
+        <div class="col-lg-9" id="content">
           <p>
             The time has finally come for that 360-degree career change. After years of working in a corporative environment I have decided to embark on a new journey. I should probably start with something like, the absolute beginner's portfolio page, nothing much to show...
 
             <p> Jokes aside, I am currently attending a Frontend Development Bootcamp. I have initially become interested in programming in 2018, having attended Zurich Tech Job Fair with a friend. I can thank a developer with a dog-robot who was, at the time "trying to teach a new (robot) old dog tricks". I thought to myself, oh, I want to be able to do that! So here I am, although 4 years later...</p>
 
             <p>Skills I am hoping to learn in this bootcamp are:</p>
-            <ul>
+            <ul class="skills-ul">
            <li> Front-End foundations (HTML/CSS/Git, UI/UX Design, JS, Bootstrap, The DOM, APIs, JQuery, JSON, Ajax)</li>
            <li>Front-End Frameworks (Node.js, ES6, Object-oriented programming, Test-driven development, React, Behaviour-driven development, Deployment, professional project portfolio)</li>
            <li>While working on my projects: Team collaboration, Agile development, project demonstration and storytelling, understanding the bounds of reasonable and achievable)</li>
@@ -118,11 +116,15 @@
         <div class="col-lg-2">
           <h3>portfolio</h3>
         </div>
-        <div class="col-lg-10" id="content">
+        <div class="col-lg-9" id="content">
           <div class="portfolio-grid">
             <div class="card" id="rp">
-              <img src="./images/rotating-planets1.png" class="card-img-rp" alt="Snapshot of rotating planets application" />
+              <a href="https://cyberrie.github.io/rotatingPlanets/" aria-label="Rotating Planets application page"  target="_blank"  rel='noopener noreferrer'> <img src="./images/rotating-planets1.png" class="card-img-rp" alt="Snapshot of rotating planets application" />
+                <div class="overlay"></div>
+              </a>
+             
               <div class="card-body">
+                <h5>Rotating Planets</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -130,8 +132,13 @@
               </div>
             </div>
             <div class="card" id="sky">
-              <img src="./images/skyline1.png" class="card-img-top" alt="Snapshot of skyline" />
+              <a href="https://cyberrie.github.io/skyline" aria-label="Skyline application page" target="_blank" rel='noopener noreferrer' >    <img src="./images/skyline1.png" class="card-img-top" alt="Snapshot of skyline" />
+                <div class="overlay"></div>
+              </a>
+          
+    
               <div class="card-body">
+                <h5>Skyline</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -139,17 +146,27 @@
               </div>
             </div>
             <div class="card" id="nl">
-              <img src="./images/nutrition-label1.png" class="card-img-top" alt="Screenshot of nutrition label application" />
+              <a href="https://cyberrie.github.io/nutrition-label/" aria-label="Nutrition Label application page" target="_blank" rel='noopener noreferrer'>
+                <img src="./images/nutrition-label1.png" class="card-img-top" alt="Screenshot of nutrition label application" />
+                <div class="overlay"></div>
+              </a>
+             
               <div class="card-body">
+                <h5>Nutrition Label</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
               </div>
             </div>
+
             <div class="card" id="quiz">
-              <img src="./images/quiz1.png" class="card-img-top" alt="Screenshot of Quiz application" />
-              <div class="card-body">
+              <a href="https://cyberrie.github.io/quiz/" aria-label="Quiz application page" target="_blank" rel='noopener noreferrer'>  <img src="./images/quiz1.png" class="card-img-top" alt="Screenshot of Quiz application" />
+                <div class="card-body">
+                  <div class="overlay"></div>
+                </a>
+            
+                <h5>Quiz</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -157,8 +174,12 @@
               </div>
             </div>
             <div class="card" id="piano">
-              <img src="./images/piano1.png" class="card-img-top" alt="Screenshot of piano" />
+
+              <a href="https://cyberrie.github.io/piano/" aria-label="Piano application page" target="_blank" rel='noopener noreferrer'>  <img src="./images/piano1.png" class="card-img-top" alt="Screenshot of piano" />
+              <div class="overlay"></div></a>
+             
               <div class="card-body">
+                <h5>Piano</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -172,16 +193,15 @@
         <div class="col-lg-2">
           <h3>contact</h3>
         </div>
-        <div class="col-lg-10" id="content">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-            sequi porro placeat expedita modi, aliquam dolore, unde mollitia
-            neque at, repudiandae laborum? In eius, nobis corporis libero
-            quaerat officiis neque? Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Nostrum, ab eligendi. Voluptas non dolores in sit
-            maxime cumque asperiores itaque, voluptatibus quo enim, porro
-            tenetur illo rerum aliquam, dignissimos natus! Lorem 
-          </p>
+        <div class="col-lg-9" id="content">
+              <div class="contact-flex">
+                <a rel='noopener noreferrer'class="connect-btn"target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSfg4G5cqZBVgmJeG_7NEiBWRZE3pN3qUZ0XTKrFc72O00x0pw/viewform?vc=0&c=0&w=1&flr=0">Connect</a>
+               <h4>or drop me an email at <a class="mail-link" rel='noopener noreferrer' target='_blank' href="mailto:helena.gilje@gmail.com">helena.gilja@gmail.com</a></h4>
+    
+               <article class="icons">
+              <a href="tel:+447393392366" aria-label="Link for a mobile call"><i class="fa-solid fa-phone"></i></a>
+              <a href="https://github.com/cyberrie" aria-label="Link to a Github profile" rel='noopener noreferrer' target='_blank'><i class="fa-brands fa-github"></i></a>
+               </article>
         </div>
       </section>
     </main>
