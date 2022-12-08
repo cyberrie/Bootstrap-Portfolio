@@ -161,72 +161,9 @@ body,
 
 /* portfolio grid */
 
-.col-lg-9,
-.col-md-8,
-.col-sm-9,
-.col-sm-8 {
-  padding: 0 !important;
-}
 .portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 200px);
-  gap: 15px;
-  grid-template-areas:
-    "rp rp"
-    "rp rp"
-    "sky nl"
-    "quiz piano ";
+  row-gap: 20px;
 }
-
-#rp {
-  grid-area: rp;
-}
-
-#sky {
-  grid-area: sky;
-}
-
-#nl {
-  grid-area: nl;
-}
-
-#quiz {
-  grid-area: quiz;
-}
-
-#piano {
-  grid-area: piano;
-}
-
-.card-text {
-  font-size: 1.2rem;
-}
-
-.card-img-rp {
-  width: 100%;
-  height: 350px;
-  border-radius: var(--border-radius-10) var(--border-radius-10) 0 0;
-}
-.card-img-top {
-  width: 100%;
-  height: 140px;
-  border-radius: var(--border-radius-10) var(--border-radius-10) 0 0;
-}
-
-.card-body {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 10px;
-  background: linear-gradient(90deg, var(--pc1-rgba), var(--sec-rgba), silver);
-}
-
-.card {
-  position: relative;
-  border-radius: var(--border-radius-10) var(--border-radius-10) 0 0;
-}
-
 .card:hover .overlay {
   opacity: 1;
 }
