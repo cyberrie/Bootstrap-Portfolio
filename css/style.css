@@ -96,6 +96,11 @@ body,
   align-items: center;
 }
 
+.navbar-nav {
+  display: flex;
+  gap: 32px;
+}
+
 /* JUMBOTRON */
 
 .container {
@@ -129,16 +134,19 @@ body,
   display: flex;
 }
 
-.skills-ul li {
-  margin-left: 32px;
-}
-
 #about {
   margin-bottom: 100px;
 }
 #content {
   margin-bottom: 48px;
 }
+
+/* skills */
+
+.skills-ul li {
+  margin-left: 32px;
+}
+
 /* portfolio grid */
 
 .portfolio-grid {
