@@ -7,7 +7,6 @@
 - [My process](#my-process)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
-- [Continued development](#continued-development)
 - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -39,15 +38,17 @@ The following animation shows the web aplication's appearance:
 
 You will be able to see my portfolio page URL if you navigate into Settings → Pages inside this repository.
 
-Or, click on this link: [Helena's Bootstrap-Portfolio](inse)
+Or, click on this link: [Helena's Bootstrap-Portfolio](https://cyberrie.github.io/Bootstrap-Portfolio/)
 
 ## My Process
 
-I have started working on my portfolio page last week, so slightly ahead of the schedule.
+Utilised same design from original portfolio but used Bootstrap components throughout my application, including below:
 
-I have used pen and paper to sketch my initial layout.
+- Navbar
+- Jumbotron
+- Bootstrap gird built using Bootstrap Cards
 
-For my main layout, I have decided to use flexbox and grid nested within portfolio section of my page. I now understand this can be built using grid layout fully, however as I have started slightly earlier, I felt more comfortable with flexbox.
+I have customised styling of all Bootstrap components to recreate my original proftolio. This was a good exercise in terms of getting familiar with default component styles, selector precedence and the usage of CSS !important property.
 
 ## Built with...
 
