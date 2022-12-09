@@ -1,7 +1,7 @@
 ## Table of contents
 
 - [Overview](#overview)
-- [The challenge](#the-challenge)
+- [Acceptance Criteria](#acceptance-criteria)
 - [Portfolio Demo](#portfolio-demo)
 - [Links](#links)
 - [My process](#my-process)
@@ -14,9 +14,9 @@
 
 ## Overview
 
-This challenge was completed to further enhance my skills I have learned so far with the foucs on this week's lessons on UX, advanced CSS and Bootstrap.
+This project was completed to further enhance my skills I have learned so far with the foucs on this week's learnings on UX, advanced CSS and Bootstrap.
 
-## The Challenge
+## Acceptance Criteria
 
 To recreate my portfolio from last week, using Bootstrap, with some conditions, as below:
 
@@ -33,13 +33,13 @@ To recreate my portfolio from last week, using Bootstrap, with some conditions, 
 
 The following animation shows the web aplication's appearance:
 
-![portfolio demo](insert demo)
+![portfolio demo](./images/bootstrap-portfolio-demo.gif)
 
 ## Links
 
 You will be able to see my portfolio page URL if you navigate into Settings → Pages inside this repository.
 
-Or, click on this link: [Helena's Portfolio Page](insert link)
+Or, click on this link: [Helena's Bootstrap-Portfolio](inse)
 
 ## My Process
 
