@@ -19,11 +19,11 @@ This project was completed to further enhance my skills I have learned so far wi
 
 To recreate my portfolio from last week, using Bootstrap, with some conditions, as below:
 
-- A navigation bar: A navigation menu at the top. Feel free to use Bootstrap's navbar or create your own.
-- Include links that are applicable to your portfolio. Links should navigate to the appropriate sections
-- A hero section: A jumbotron featuring your picture, your name, and any other information you'd like to include.
-- Skills/ About Me section. List out the skills you expect to learn from the bootcamp.
-- A work section: A section displaying your work in grid. Use Bootstrap cards for each project. The description should give a brief overview of the work. Each project will eventually link to your class project work!
+- A navigation bar: either Bootstrap or my own.
+- Links should beincluded that are applicable to your portfolio and navigate to appropriate sections.
+- A jumbotron featuring your picture, your name, and any other information you'd like to include.
+- About me and skills expected to learn from this course
+- A section displaying your work in grid: use Bootstrap cards for each project, with brief description of your work. Each project will should link to your projects.
 - All hyperlinks should have a hover effect.
 - All buttons should display a box shadow upon hover.
 - A footer section
@@ -72,8 +72,6 @@ Bootstrap 4.3. s still more prevalent on websites than a new version.
 ## Author
 
 ©️ Helena Gilja
-
-- Website - [Helena - Web Developer](insert link)
 
 - GitHub - [cyberrie](https://github.com/cyberrie)
 
