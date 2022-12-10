@@ -23,7 +23,7 @@ To recreate my portfolio from last week, using Bootstrap, with some conditions, 
 - Links should be included that are applicable to portfolio and navigate to appropriate sections
 - A jumbotron featuring the picture, name, and any other desired information
 - Section about me, including skills expected to learn from this course
-- A section displaying work in grid (Bootstrap): use Bootstrap cards for each project, with brief description of each. Each project will should link to your projects.
+- A section displaying work in grid (Bootstrap): use Bootstrap cards for each project, with brief description of each. Each project should link to your projects.
 - All hyperlinks should have a hover effect
 - All buttons should display a box shadow upon hover
 - A footer section
