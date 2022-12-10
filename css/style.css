@@ -361,15 +361,6 @@ footer > p {
     font-size: 1.2rem;
   }
 
-  .card-img-rp {
-    width: 100%;
-    height: 175px;
-  }
-  .card-img-top {
-    width: 100%;
-    height: 65px;
-  }
-
   .card-body {
     overflow: hidden;
   }
