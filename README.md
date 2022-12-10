@@ -19,18 +19,18 @@ This project was completed to further enhance my skills I have learned so far wi
 
 To recreate my portfolio from last week, using Bootstrap, with some conditions, as below:
 
-- A navigation bar: either Bootstrap or my own.
-- Links should beincluded that are applicable to your portfolio and navigate to appropriate sections.
-- A jumbotron featuring your picture, your name, and any other information you'd like to include.
-- About me and skills expected to learn from this course
-- A section displaying your work in grid: use Bootstrap cards for each project, with brief description of your work. Each project will should link to your projects.
-- All hyperlinks should have a hover effect.
-- All buttons should display a box shadow upon hover.
+- A navigation bar: either Bootstrap or my own
+- Links should be included that are applicable to portfolio and navigate to appropriate sections
+- A jumbotron featuring the picture, name, and any other desired information
+- Section about me, including skills expected to learn from this course
+- A section displaying work in grid (Bootstrap): use Bootstrap cards for each project, with brief description of each. Each project will should link to your projects.
+- All hyperlinks should have a hover effect
+- All buttons should display a box shadow upon hover
 - A footer section
 
 ## Portfolio Demo
 
-The following animation shows the web aplication's appearance:
+The following animation shows my web aplication's appearance:
 
 ![portfolio demo](./images/bootstrap-portfolio-demo.gif)
 
@@ -46,7 +46,7 @@ Utilised same design from original portfolio but used Bootstrap components throu
 
 - Navbar
 - Jumbotron
-- Bootstrap gird built using Bootstrap Cards
+- Bootstrap grid built using Bootstrap Cards
 
 I have customised styling of all Bootstrap components to recreate my original proftolio. This was a good exercise in terms of getting familiar with default component styles, selector precedence and the usage of CSS !important property.
 
@@ -59,15 +59,15 @@ I have customised styling of all Bootstrap components to recreate my original pr
 
 ## What I learned
 
-Bootstrap is essentialy flexbox but it simplifies the process of building responsive applications with it's built-in column system. Subsequently it reduces the need to use media queries.
+Bootstrap is essentialy flexbox but it simplifies the process of building responsive applications with it's built-in column system. Subsequently it reduces the need of using media queries.
 
-I will utilise Bootstrap only where applicable in my future projects as I have learned that it is sometimes challenging to create more complex custom-made design, using Bootstrap due to default stylings.
+I will utilise Bootstrap only where applicable in my future projects. I have learned that it is sometimes challenging to create more complex custom-made design, using Bootstrap due to default stylings.
 
-Bootstrap 4.3. s still more prevalent on websites than a new version.
+Bootstrap 4.3. s still more prevalent on websites than its newer version.
 
 ## Useful Resources
 
-- [Bootstrap Documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - This was a nice refresher I kept open during the initial stages to ensure I apply these in my project.
+- [Bootstrap Documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Essential for this project.
 
 ## Author
 
@@ -77,4 +77,4 @@ Bootstrap 4.3. s still more prevalent on websites than a new version.
 
 ## Acknowledgments
 
-🌟 Special thanks to Andrew with some assistance in resolving challenge with this project!
+🌟 Special thanks to TA Andrew and his assistance in resolving some challenges with this project!
